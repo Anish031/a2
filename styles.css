@@ -777,3 +777,19 @@ body.dark-mode .mission-card { background: #d4a800; }
   .footer-grid { grid-template-columns: 1fr; }
   .actions { flex-direction: column; }
 }
+
+/* Location Google Maps link */
+.location-link {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 1.6;
+  display: inline-block;
+}
+.location-link:hover {
+  text-decoration: underline;
+}
+body.dark-mode .location-link {
+  color: #6aadff;
+}
