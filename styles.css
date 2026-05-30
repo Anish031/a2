@@ -805,3 +805,24 @@ body.dark-mode .location-link {
 body.dark-mode .hours-text {
   color: #6aadff;
 }
+
+/* WhatsApp send button */
+.btn-whatsapp {
+  background: #25d366;
+  color: #fff;
+  font-size: 15px;
+  width: 100%;
+  margin-top: 4px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+}
+.btn-whatsapp:hover {
+  background: #1ebe5d;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35);
+}
