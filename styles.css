@@ -793,3 +793,15 @@ body.dark-mode .mission-card { background: #d4a800; }
 body.dark-mode .location-link {
   color: #6aadff;
 }
+
+/* Business hours styling */
+.hours-text {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Playfair Display', Georgia, serif;
+  display: inline-block;
+}
+body.dark-mode .hours-text {
+  color: #6aadff;
+}
